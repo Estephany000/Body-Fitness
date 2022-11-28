@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  database:
+    image: mysql
+    container_name: tcc.mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_PASSWORD:-root}
+    volumes:
+       - mysql:/var/lib/mysql
+    ports:
+      - 3306:3306
+
+volumes:
+    mysql:

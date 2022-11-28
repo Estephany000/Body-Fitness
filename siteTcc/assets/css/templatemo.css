@@ -27,26 +27,26 @@ Table of contents
 
 /* Typography */
 body, ul, li, p, a, label, input, div {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-size: 18px !important;
 	font-weight: 300 !important;
 }
 
 .h1 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 48px !important;
+	font-family: 'Roboto', sans-seri;
+	font-size: 50px !important;
 	font-weight: 200 !important;
 }
 
 .h2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 30px !important;
+	font-size: 38px !important;
 	font-weight: 300;
 }
 
 .h3 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 22px !important;
+	font-size: 28px !important;
 }
 /* General */
 .logo {
@@ -62,15 +62,26 @@ body, ul, li, p, a, label, input, div {
 }
 
 .text-success {
-	color: #c93ec2 !important;
+	color: #FF0072 !important;
+}
+
+.text-orange{
+	color: #FF624B;
+}
+
+.text-salmao{
+	color: #FFA191;
+}
+.text-green{
+	color:#5EF7D1;
 }
 
 .text-light {
-	color: #cfd6e1 !important;
+	color: #c3c8d1 !important;
 }
 
 .bg-dark {
-	background-color: #212934 !important;
+	background-color: #1d242d !important;
 }
 
 .bg-light {
@@ -101,7 +112,7 @@ body, ul, li, p, a, label, input, div {
 }
 /* Nav */
 #templatemo_nav_top {
-	min-height: 40px;
+	min-height: 1000px;
 }
 
 #templatemo_nav_top * {
@@ -113,7 +124,7 @@ body, ul, li, p, a, label, input, div {
 }
 
 #templatemo_main_nav a:hover {
-	color: #1f03bd;
+	color: #bd03ad;
 }
 
 #templatemo_main_nav .navbar .nav-icon {
@@ -134,7 +145,7 @@ body, ul, li, p, a, label, input, div {
 }
 /* Shop */
 .shop-top-menu a:hover {
-	color: #0703be !important;
+	color: #be0386 !important;
 }
 /* Product */
 .product-wap {
@@ -199,12 +210,12 @@ body, ul, li, p, a, label, input, div {
 /* Carousel Hero para mudar os traços e a seta */
 #template-mo-zay-hero-carousel .carousel-indicators li {
 	margin-top: -50px;
-	background-color: #bc3fbf;
+	background-color: #FF6600;
 }
 
 #template-mo-zay-hero-carousel .carousel-control-next i,
 	#template-mo-zay-hero-carousel .carousel-control-prev i {
-	color: #19269b !important;
+	color: #FF6600 !important;
 	font-size: 2.8em !important;
 }
 /* Carousel Brand */
