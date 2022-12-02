@@ -93,13 +93,13 @@ body, ul, li, p, a, label, input, div {
 }
 
 .bg-success {
-	background-color: #555555 !important;
+	background-color: #D9D9D9 !important;
 
 }
 
 .btn-success {
 	background-color: #59ab6e !important;
-	border-color: #56ae6c !important;
+	border-color: #469159 !important;
 }
 
 .pagination .page-link:hover {
@@ -134,6 +134,7 @@ body, ul, li, p, a, label, input, div {
 /* Hero Carousel */
 #template-mo-zay-hero-carousel {
 	background: #efefef !important;
+
 }
 /* Accordion */
 .templatemo-accordion a {
@@ -233,7 +234,7 @@ body, ul, li, p, a, label, input, div {
 }
 
 .services-icon-wap:hover {
-	background: #eec2f0;
+	background: #FF624B;
 }
 /* Contact map */
 .leaflet-control a, .leaflet-control {

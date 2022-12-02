@@ -1,7 +1,7 @@
 <div class="container-fluid bg-light py-5">
         <div class="col-md-8 m-auto text-center">
-            <h1 class="h1">Nossas Lojas</h1><br>
-
+            <h1 class="h1"><b>Nossas Lojas</b> <hr></h1>
+               
                     <h2 class="h2">1° Loja Física</h2>
                     <div id="mapid" style="width: 100%; height: 300px; padding-top: 20px;">
         
@@ -16,7 +16,8 @@
 
     <div class="container-fluid bg-light py-5">
         <div class="col-md-8 m-auto text-center">
-            <h2 class="h2">2° Loja Física</h2><br>
+            <h2 class="h2">2° Loja Física</h2>
+            <hr>
 
             <a href="https://goo.gl/maps/mbJkWTEkCYkDMYXAA"><i class="fas fa-map-marker-alt fa-fw"></i></a> 
 

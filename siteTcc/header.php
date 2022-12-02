@@ -1,13 +1,13 @@
    <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow  ">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow ">
         <div class="container d-flex justify-content-between align-items-center">
 
             <a href="index.php" style="text-decoration-line: none;"><span class="navbar-brand text-success logo h1 align-self-center">
                 Body<span class="navbar-brand text-dark logo h1 align-self-center" href="index.php">Fitness</span>
             </span></a>
 
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler border-0 bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
             </button>
 
             <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">

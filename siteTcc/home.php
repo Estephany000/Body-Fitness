@@ -14,7 +14,7 @@
 			<div class="container">
 				<div class="row p-5">
 					<div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-						<img class="img-fluid" src="imagens/logo.png" alt="">
+						<img class="img-fluid" src="imagens/logo.png" alt="" >
 					</div>
 					<div class="col-lg-6 mb-0 d-flex align-items-center">
 						<div class="text-align-left align-self-center">
@@ -35,21 +35,28 @@
 			</div>
 		</div>
 		<div class="carousel-item">
-			<div class="container">
-				<div class="row p-5">
-					<div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-						<img class="img-fluid" src="imagens/modelo.png" alt="">
+			<div class="container" >
+				<div class="row p-5 ">
+					<div class="mx-auto col-md-4 d-flex p-2 col-lg-6 order-lg-last" >
+						<img class="img-fluid p-2" src="imagens/modelo2.png" alt="" style="height: 440px;">
+					
+						<img class="img-fluid p-2" src="imagens/modelo.png" alt="" style="height: 440px; " >						
+					
 					</div>
-					<div class="col-lg-6 mb-0 d-flex align-items-center" style="">
+
+					<div class="col-lg-6 mb-0 d-flex align-items-center">
 						<div class="text-align-left">
-							<h1 class="h1">Roupas Lindas</h1>
-							<h3 class="h2">Com tecidos de qualidade e super confortáveis!</h3>
+							<h1 class="h2"><b>Roupas<span class="text-orange"> Lindas</span></b></h1>
+							<h3 class="h3">Com tecidos de qualidade e super confortáveis!</h3>
 							<p>
-								Visite o nosso <strong class="text-orange">catálogo</strong>,
-								 monte sua lista e nos envie pelo whatsapp.
+								Visite o nosso <a href="catalogo.php" style="text-decoration-line: none;"><strong class="text-orange">catálogo</strong></a>,
+								 monte sua lista, nos envie pelo whatsapp efetue o pagamento e espere 
+								 em casa pela sua tão esperada compra!
 							</p>
 						</div>
 					</div>
+
+					
 				</div>
 			</div>
 		</div>
@@ -57,15 +64,15 @@
 			<div class="container">
 				<div class="row p-5">
 					<div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-						<img class="img-fluid" src="./assets/img/banner_img_03.jpg" alt="">
+						<img class="img-fluid" src="imagens/model3.png" alt="" style="height: 440px; padding-left: 140px;">
 					</div>
 					<div class="col-lg-6 mb-0 d-flex align-items-center">
 						<div class="text-align-left">
-							<h1 class="h1">Repr in voluptate</h1>
-							<h3 class="h2">Ullamco laboris nisi ut</h3>
-							<p>We bring you 100% free CSS templates for your websites. If you
-								wish to support TemplateMo, please make a small contribution via
-								PayPal or tell your friends about our website. Thank you.</p>
+							<h1 class="h2"><b>Aproveite as <span class="text-orange">promoções!</span></b></h1>
+							<h3 class="h3">As melhores promoções estão aqui!</h3>
+							<p>Compre e aproveite produtos de boa qualidade!
+								Compartilhe com as amigas e venham comprar conosco!
+							</p>
 						</div>
 					</div>
 				</div>
@@ -87,32 +94,32 @@
 <section class="container py-5">
 	<div class="row text-center pt-3">
 		<div class="col-lg-6 m-auto">
-			<h1 class="h1">Categories of The Month</h1>
+			<h1 class="h1"><b>Melhores do MÊS!</b></h1>
 			<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
 				officia deserunt mollit anim id est laborum.</p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-12 col-md-4 p-5 mt-3">
-			<a href="#"><img src="./assets/img/category_img_01.jpg"
+			<a href="catalogo.php"><img src="imagens/legginsicon.png" style="height: 70,5%; background: #F2F2F2;"
 				class="rounded-circle img-fluid border"></a>
-			<h5 class="text-center mt-3 mb-3">Watches</h5>
+			<h5 class="text-center mt-3 mb-3">Leggins</h5>
 			<p class="text-center">
 				<a class="btn btn-success">Go Shop</a>
 			</p>
 		</div>
 		<div class="col-12 col-md-4 p-5 mt-3">
-			<a href="#"><img src="./assets/img/category_img_02.jpg"
+			<a href="#"><img src="imagens/conjuntosicon.png" style="height: 77,5%; background: #F2F2F2;"
 				class="rounded-circle img-fluid border"></a>
-			<h2 class="h5 text-center mt-3 mb-3">Shoes</h2>
+			<h2 class="h5 text-center mt-3 mb-3">Conjuntos</h2>
 			<p class="text-center">
 				<a class="btn btn-success">Go Shop</a>
 			</p>
 		</div>
 		<div class="col-12 col-md-4 p-5 mt-3">
-			<a href="#"><img src="./assets/img/category_img_03.jpg"
+			<a href="#"><img src="imagens/camisetaicon.png" style="height: 77,5%; background: #F2F2F2;"
 				class="rounded-circle img-fluid border"></a>
-			<h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
+			<h2 class="h5 text-center mt-3 mb-3">Blusas</h2>
 			<p class="text-center">
 				<a class="btn btn-success">Go Shop</a>
 			</p>
@@ -127,16 +134,15 @@
 	<div class="container py-5">
 		<div class="row text-center py-3">
 			<div class="col-lg-6 m-auto">
-				<h1 class="h1">Featured Product</h1>
-				<p>Reprehenderit in voluptate velit esse cillum dolore eu fugiat
-					nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+				<h1 class="h1"><b>Melhores Avaliados!</b></h1>
+				<hr>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-12 col-md-4 mb-4">
 				<div class="card h-100">
 					<a href="shop-single.html"> <img
-						src="./assets/img/feature_prod_01.jpg" class="card-img-top"
+						src="imagens/avaliado.png" style="background: #F2F2F2;" class="card-img-top"
 						alt="...">
 					</a>
 					<div class="card-body">
@@ -144,8 +150,8 @@
 							<li><i class="text-warning fa fa-star"></i> <i
 								class="text-warning fa fa-star"></i> <i
 								class="text-warning fa fa-star"></i> <i
-								class="text-muted fa fa-star"></i> <i
-								class="text-muted fa fa-star"></i></li>
+								class="text-warming fa fa-star"></i> <i
+								class="text-warming fa fa-star"></i></li>
 							<li class="text-muted text-right">$240.00</li>
 						</ul>
 						<a href="shop-single.html"
@@ -159,7 +165,7 @@
 			<div class="col-12 col-md-4 mb-4">
 				<div class="card h-100">
 					<a href="shop-single.html"> <img
-						src="./assets/img/feature_prod_02.jpg" class="card-img-top"
+					src="imagens/avaliado1.png" style="background: #F2F2F2;" class="card-img-top"
 						alt="...">
 					</a>
 					<div class="card-body">
@@ -167,8 +173,8 @@
 							<li><i class="text-warning fa fa-star"></i> <i
 								class="text-warning fa fa-star"></i> <i
 								class="text-warning fa fa-star"></i> <i
-								class="text-muted fa fa-star"></i> <i
-								class="text-muted fa fa-star"></i></li>
+								class="text-warning fa fa-star"></i> <i
+								class="text-warning fa fa-star"></i></li>
 							<li class="text-muted text-right">$480.00</li>
 						</ul>
 						<a href="shop-single.html"
@@ -182,7 +188,7 @@
 			<div class="col-12 col-md-4 mb-4">
 				<div class="card h-100">
 					<a href="shop-single.html"> <img
-						src="./assets/img/feature_prod_03.jpg" class="card-img-top"
+					src="imagens/avaliado2.png" style="background: #F2F2F2;" class="card-img-top"
 						alt="...">
 					</a>
 					<div class="card-body">
